@@ -5,6 +5,15 @@
 	<title>Inventory</title>
 </head>
 <body>
+	
+
+		<h1 align="center">Welcome</h1>
+
+	<p align="center">
+		<font size=5>
+			<?php echo $_POST['newUser']; ?> 
+		</font>
+	</p>
 
 	<p align="center">
 		<a href="createAcc.html">Create account</a>	<a href="http://localhost/phpmyadmin/">See database</a>
