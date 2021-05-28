@@ -1,3 +1,12 @@
+<?php 
+	if ($_POST['user'] == "a" && $_POST['password'] == "asd") {
+
+	} else {
+		echo "Something is wrong";
+		exit();
+	}
+?>
+
 <?php
 
 $host="localhost";
@@ -82,8 +91,10 @@ if(isset($_POST['createAccBtn'])) {
 	$username = $_POST['newUser'];
 	$pssUser = $_POST['newPas'];
 
+	//MySql code
 	$query = ("INSERT INTO USERS (USERNAME, PAW) VALUES ('$username', '$pssUser')");
 
+	//talk to the database
 	$run = mysqli_query($conn,$query);
 
 	if($run){
