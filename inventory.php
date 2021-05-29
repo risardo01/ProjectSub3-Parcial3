@@ -9,7 +9,7 @@
 	or die("unable to connect");
 
 
-	$query = "SELECT * FROM USERNAME";
+	$query = "SELECT * FROM USERS";
 
 	$run = mysqli_query($conn,$query);
 
@@ -19,14 +19,16 @@
 		echo "<h1>Something is wrong</h1>";
 	}
 
+	$print = mysqli_fetch_array($run);
+
 ?>
 
 <?php 
 	//account validation 
 	if ($_POST['user'] == "a" && $_POST['password'] == "asd") {
-		echo $row;
+		echo $print;
 	} else {
-		echo "Something is wrong";
+		echo "You shouldn't be here";
 		exit();
 	}
 ?>
@@ -45,7 +47,7 @@
 
 	
 	<p align="center">
-		<a href="createAcc.html">Create account</a>	<a href="http://localhost/phpmyadmin/">See database</a> <a href="eraseAcc.php"></a>
+		<a href="createAcc.php">Create account</a>	<a href="http://localhost/phpmyadmin/">See database</a> <a href="eraseAcc.php"></a>	<a href="newObj.php">New object</a>
 	</p>
 
 	

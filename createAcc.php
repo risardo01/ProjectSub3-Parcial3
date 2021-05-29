@@ -1,12 +1,3 @@
-<?php 
-	if ($_POST['user'] == "a" && $_POST['password'] == "asd") {
-
-	} else {
-		echo "Something is wrong";
-		exit();
-	}
-?>
-
 <?php
 
 $host="localhost";
@@ -37,7 +28,7 @@ or die("unable to connect");
 		<label>Write your password</label>
 		<input id="password" type="password" name="newPas" required>
 
-		<button type="submit" name="createAccBtn">Create</button>
+		<button type="submit" name="createAccBtn">Create</button> <a href="inventory.php">Go Back</a>
 
 	</form>
 
@@ -45,8 +36,8 @@ or die("unable to connect");
 		//function to check if the data is correctly
 		function check () {
 
-			chec = 0;
-			things = "Some information is write incorrectly: \n";
+			var chec = 0;
+			var things = "Some information is write incorrectly: \n";
 
 			var user = document.getElementById("user").value;
 			var pss =  document.getElementById("password").value;
