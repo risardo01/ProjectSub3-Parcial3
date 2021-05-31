@@ -20,8 +20,11 @@ or die("unable to connect");
 
 	<h1>Create Account</h1>
 
+
 	<form action="" method="post" onsubmit="return check ();">
 		
+		<h2 align="center">You will never can change the account just erase it</h2>
+
 		<label>Write your user</label>
 		<input id="user" type="text" name="newUser" required>
 
