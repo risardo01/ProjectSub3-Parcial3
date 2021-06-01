@@ -1,0 +1,18 @@
+body {
+	background:black;
+	color: white;
+}
+
+a  {
+	width: 30%;
+	margin: auto;
+	background: #333;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+table {
+	margin: auto;
+	width: auto;
+}

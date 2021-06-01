@@ -17,13 +17,14 @@ or die("unable to connect");
 <head>
 	<meta charset="utf-8">
 	<title>Create new object</title>
+	<link rel="stylesheet" type="text/css" href="css/loginPage.css">
 </head>
 <body>
 
-	<form action="" method="post" onsubmit="return check();">
+	<h1 align="center">New Object Menu</h1>
+	<hr>
 
-		<h1 align="center">New Object Menu</h1>
-		<hr>
+	<form action="" method="post" onsubmit="return check();">
 
 		<font>
 			<p align="center">
@@ -59,7 +60,6 @@ or die("unable to connect");
 				<button type="submit" name="submitBtn">Create</button>
 			</p>
 
-			<a href="inventory.php">Go Back</a>
 		</font>
 
 	</form>

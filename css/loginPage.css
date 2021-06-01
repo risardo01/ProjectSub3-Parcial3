@@ -34,7 +34,7 @@ input, select {
 	margin-bottom: 20px;
 }
 
-input[type="submit"] {
+button{
 	width: 30%;
 	margin: auto;
 	background: #333;

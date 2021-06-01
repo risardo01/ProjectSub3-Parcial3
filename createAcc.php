@@ -31,7 +31,9 @@ or die("unable to connect");
 		<label>Write your password</label>
 		<input id="password" type="password" name="newPas" required>
 
-		<button type="submit" name="createAccBtn">Create</button> <a href="inventory.php">Go Back</a>
+		<p align="center">
+		<button type="submit" name="createAccBtn">Create</button>
+		</p>
 
 	</form>
 

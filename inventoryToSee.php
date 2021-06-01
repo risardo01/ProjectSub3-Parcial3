@@ -19,13 +19,14 @@
 <html>
 <head>
 	<title>Ver Inventario</title>
+	<link rel="stylesheet" type="text/css" href="css/welcome.css">
 </head>
 <body>
 
 	<h1 align="center">Inventory</h1>
 	<hr>
 
-	<table border="3" bordercolor="black" align="center">
+	<table border="3" bordercolor="white" align="center">
 
 		<tr>
 			<td align="center">Name</td><td align="center">Info. from the object</td><td align="center">Items in the inventory</td><td align="center">Price</td>

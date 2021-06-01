@@ -1,0 +1,19 @@
+body {
+	background:black;
+	color: white;
+}
+
+a  {
+	background: #300;
+	width: 30%;
+	margin: auto;
+	color: white;
+	border: none;
+	cursor: pointer;
+	letter-spacing: 5px;
+}
+
+table {
+	margin: auto;
+	width: auto;
+}

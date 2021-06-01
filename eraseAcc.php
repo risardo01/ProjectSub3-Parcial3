@@ -17,6 +17,7 @@ or die("unable to connect");
 <head>
 	<meta charset="utf-8">
 	<title>Erase an Account</title>
+	<link rel="stylesheet" type="text/css" href="css/loginPage.css">
 </head>
 <body>
 
@@ -32,8 +33,10 @@ or die("unable to connect");
 		<br><br>Password: <br>
 		<input type="password" name="psw" id="psw" required><br><br>
 
+		<p align="center">
 		<button type="submit" name="submitBtn">Submit</button>
-		
+		</p>
+
 	</form>
 
 	<script type="text/javascript">
