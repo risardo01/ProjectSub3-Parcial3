@@ -89,7 +89,7 @@ if(isset($_POST['submitBtn'])) {
 	$psw = $_POST['psw'];
 
 	//MySql code
-	$query = "DELETE FROM USERS WHERE USERNAME, PAW = '$username','$psw'";
+	$query = "DELETE FROM USERS WHERE USERNAME = '$username' AND PAW = '$psw'";
 
 
 	//talk to the database
