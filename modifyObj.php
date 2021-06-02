@@ -21,7 +21,7 @@ or die("unable to connect");
 </head>
 <body>
 	
-	<h1 align="center">New Object Menu</h1>
+	<h1 align="center">Modify Object Menu</h1>
 	<hr>
 
 	<form action="" method="post" onsubmit="return check();">
